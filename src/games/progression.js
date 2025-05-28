@@ -9,7 +9,7 @@ const game = () => {
   const blankIndex = getRandomInRange(0, sequence.length - 1)
   const correctAnswer = String(sequence[blankIndex])
 
-  sequence[blankIndex] = ' .. '
+  sequence[blankIndex] = '..'
 
   console.log('What number is missing in the progression?')
 
