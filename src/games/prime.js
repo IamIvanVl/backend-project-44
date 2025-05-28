@@ -7,7 +7,7 @@ const game = () => {
 
   let correctAnswer
 
-  if (isQuestionPrime === 'true') {
+  if (isQuestionPrime === true) {
     correctAnswer = 'yes'
   }
   else {
