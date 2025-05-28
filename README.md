@@ -6,3 +6,15 @@
 
 # Демонстрация Brain-Even Game:
 https://asciinema.org/a/Erzv0iC8qFdrYWZV8zxWGl9JL
+
+# Демонстрация Brain-Calc Game:
+https://asciinema.org/a/sFTwFh4DUL6CbsdArSLNSa4PS
+
+# Демонстрация Brain-GCD Game:
+https://asciinema.org/a/XZNnzWbTH91l4Boqc7R25lREZ
+
+# Демонстрация Brain-Progression Game:
+https://asciinema.org/a/cDCuhAfROMatT3sgXEnxrwEOF
+
+# Демонстрация Brain-Prime Game:
+https://asciinema.org/a/PQQVnGCMj2fuBWSBZyOfoyDDd
