@@ -1,5 +1,4 @@
 import getRandomInRange from '../randomizer.js'
-import readlineSync from 'readline-sync'
 
 const game = () => {
   const randomNumber = getRandomInRange(1, 100)
