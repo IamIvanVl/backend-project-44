@@ -4,7 +4,7 @@ const game = () => {
   const firstNumber = getRandomInRange(1, 100)
   const secondNumber = getRandomInRange(1, 100)
 
-  const question = `${firstNumber}, ${secondNumber}`
+  const question = `${firstNumber} ${secondNumber}`
 
   console.log('Find the greatest common divisor of given numbers.')
 
