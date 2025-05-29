@@ -24,17 +24,20 @@
 * **brain-progression**
 * **brain-prime**
 
-### Демонстрация Brain-Even Game:
+### Процесс установки
+https://asciinema.org/a/t11Oq0FStRB4rIamTFwHT3Jy3
+
+### Демонстрация Brain-Even Game
 https://asciinema.org/a/Erzv0iC8qFdrYWZV8zxWGl9JL
 
-### Демонстрация Brain-Calc Game:
+### Демонстрация Brain-Calc Game
 https://asciinema.org/a/sFTwFh4DUL6CbsdArSLNSa4PS
 
-### Демонстрация Brain-GCD Game:
+### Демонстрация Brain-GCD Game
 https://asciinema.org/a/XZNnzWbTH91l4Boqc7R25lREZ
 
-### Демонстрация Brain-Progression Game:
+### Демонстрация Brain-Progression Game
 https://asciinema.org/a/cDCuhAfROMatT3sgXEnxrwEOF
 
-### Демонстрация Brain-Prime Game:
-https://asciinema.org/a/PQQVnGCMj2fuBWSBZyOfoyDDd
+### Демонстрация Brain-Prime Game
+https://asciinema.org/a/tfNYtjTzYMHwItsoIFHb2HGzZ
