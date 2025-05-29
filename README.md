@@ -14,16 +14,16 @@
 * Определение простого числа
 
 ### Инструкция по установке и запуску
-* выполните клонирование репозитория с помощью команды git clone
-* выполните установку пакетов с помощью команды make install или npm ci
-* выполните тестовый запуск с помощью команды <brain-games>
+* выполните клонирование репозитория с помощью команды **git clone**
+* выполните установку пакетов с помощью команды **make install** или **npm ci**
+* выполните тестовый запуск с помощью команды **brain-games**
 
 ### Команды для запуска игр
-* <brain-even>
-* <brain-calc>
-* <brain-GCD>
-* <brain-progression>
-* <brain-prime>
+* **brain-even**
+* **brain-calc**
+* **brain-GCD**
+* **brain-progression**
+* **brain-prime**
 
 ### Демонстрация Brain-Even Game:
 https://asciinema.org/a/Erzv0iC8qFdrYWZV8zxWGl9JL
