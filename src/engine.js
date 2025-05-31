@@ -1,12 +1,14 @@
 import askUserName from './cli.js'
 import readlineSync from 'readline-sync'
 
-const multiply = (func) => {
+const engine = (func) => {
   const userName = askUserName()
   for (let i = 0; i < 3; i += 1) {
-    const [randomNumber, rightAnswer] = func()
+    const [question, rightAnswer, rules] = func()
 
-    console.log(`Question: ${randomNumber}`)
+    console.log(rules)
+
+    console.log(`Question: ${question}`)
 
     const userAnswer = readlineSync.question('Your answer: ').toLowerCase()
 
@@ -21,4 +23,4 @@ const multiply = (func) => {
   console.log(`Congratulations, ${userName}!`)
 }
 
-export default multiply
+export default engine

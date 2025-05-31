@@ -20,9 +20,9 @@ const game = () => {
 
   const correctAnswer = getResult(firstNumber, secondNumber, operator)
 
-  console.log('What is the result of the expression?')
+  const rules = 'What is the result of the expression?'
 
-  return [expression, correctAnswer]
+  return [expression, correctAnswer, rules]
 }
 
 export default game

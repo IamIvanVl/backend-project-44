@@ -19,9 +19,9 @@ const game = () => {
 
   sequence[blankIndex] = '..'
 
-  console.log('What number is missing in the progression?')
+  const rules = 'What number is missing in the progression?'
 
-  return [sequence.join(' '), correctAnswer]
+  return [sequence.join(' '), correctAnswer, rules]
 }
 
 export default game

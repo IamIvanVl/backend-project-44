@@ -6,7 +6,7 @@ const game = () => {
 
   const question = `${firstNumber} ${secondNumber}`
 
-  console.log('Find the greatest common divisor of given numbers.')
+  const rules = 'Find the greatest common divisor of given numbers.'
 
   const greatestDivisor = (() => {
     let a = firstNumber
@@ -24,7 +24,7 @@ const game = () => {
     return String(a)
   })()
 
-  return [question, greatestDivisor]
+  return [question, greatestDivisor, rules]
 }
 
 export default game

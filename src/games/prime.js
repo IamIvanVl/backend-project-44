@@ -25,9 +25,9 @@ const game = () => {
     correctAnswer = 'no'
   }
 
-  console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
+  const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-  return [question, correctAnswer]
+  return [question, correctAnswer, rules]
 }
 
 export default game
