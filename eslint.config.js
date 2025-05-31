@@ -16,7 +16,6 @@ export default [
       globals: globals.node,
     },
     rules: {
-      // Пример: отключение одного из базовых правил
       'no-unused-vars': 'off',
     },
   },
