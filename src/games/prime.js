@@ -1,5 +1,16 @@
 import getRandomInRange from '../randomizer.js'
-import isPrime from '../isPrime.js'
+
+const isPrime = (number) => {
+  if (number <= 1) {
+    return false
+  }
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return false
+    }
+  }
+  return true
+}
 
 const game = () => {
   const question = getRandomInRange(1, 100)

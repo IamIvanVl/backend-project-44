@@ -1,5 +1,13 @@
-import createSequence from '../createSequence.js'
 import getRandomInRange from '../randomizer.js'
+
+const createSequence = (start, step, length) => {
+  const sequence = []
+  for (let i = 0; i < length; i += 1) {
+    const current = start + step * i
+    sequence.push(current)
+  }
+  return sequence
+}
 
 const game = () => {
   const start = getRandomInRange(1, 30)
