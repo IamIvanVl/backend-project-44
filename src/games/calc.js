@@ -17,10 +17,8 @@ const game = () => {
   const operators = ['+', '-', '*']
   const operator = operators[getRandomInRange(0, 2)]
   const expression = `${firstNumber} ${String(operator)} ${secondNumber}`
-
-  const correctAnswer = getResult(firstNumber, secondNumber, operator)
-
   const rules = 'What is the result of the expression?'
+  const correctAnswer = getResult(firstNumber, secondNumber, operator)
 
   return [expression, correctAnswer, rules]
 }

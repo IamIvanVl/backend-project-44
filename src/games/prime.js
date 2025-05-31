@@ -15,7 +15,7 @@ const isPrime = (number) => {
 const game = () => {
   const question = getRandomInRange(1, 100)
   const isQuestionPrime = isPrime(question)
-
+  const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
   let correctAnswer
 
   if (isQuestionPrime === true) {
@@ -24,8 +24,6 @@ const game = () => {
   else {
     correctAnswer = 'no'
   }
-
-  const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
   return [question, correctAnswer, rules]
 }

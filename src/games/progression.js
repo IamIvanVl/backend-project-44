@@ -16,10 +16,9 @@ const game = () => {
   const sequence = createSequence(start, step, length)
   const blankIndex = getRandomInRange(0, sequence.length - 1)
   const correctAnswer = String(sequence[blankIndex])
+  const rules = 'What number is missing in the progression?'
 
   sequence[blankIndex] = '..'
-
-  const rules = 'What number is missing in the progression?'
 
   return [sequence.join(' '), correctAnswer, rules]
 }
