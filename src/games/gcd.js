@@ -1,17 +1,6 @@
 import getRandomInRange from '../randomizer.js'
 
-const getGCD = (a, b) => {
-  if (b === 0) {
-    return String(a)
-  }
-
-  while (b != 0) {
-    const temp = a
-    a = b
-    b = temp % b
-  }
-  return String(a)
-}
+const getGCD = (a, b) => b === 0 ? String(a) : getGCD(b, a % b)
 
 const game = () => {
   const firstNumber = getRandomInRange(1, 100)
