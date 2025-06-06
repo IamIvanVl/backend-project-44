@@ -1,10 +1,10 @@
 import askUserName from './cli.js'
 import readlineSync from 'readline-sync'
 
-const engine = (func) => {
+const engine = (game) => {
   const userName = askUserName()
   for (let i = 0; i < 3; i += 1) {
-    const [question, rightAnswer, rules] = func()
+    const [question, rightAnswer, rules] = game()
 
     console.log(rules)
 
