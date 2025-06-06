@@ -1,13 +1,13 @@
 import getRandomInRange from '../randomizer.js'
 
-const getResult = (firstNumber, secondNumber, operator) => {
+const calculate = (firstNumber, secondNumber, operator) => {
   switch (operator) {
     case '+':
-      return String(firstNumber + secondNumber)
+      return firstNumber + secondNumber
     case '-':
-      return String(firstNumber - secondNumber)
+      return firstNumber - secondNumber
     case '*':
-      return String(firstNumber * secondNumber)
+      return firstNumber * secondNumber
   }
 }
 
@@ -18,7 +18,7 @@ const game = () => {
   const operator = operators[getRandomInRange(0, 2)]
   const expression = `${firstNumber} ${String(operator)} ${secondNumber}`
   const rules = 'What is the result of the expression?'
-  const correctAnswer = getResult(firstNumber, secondNumber, operator)
+  const correctAnswer = String(calculate(firstNumber, secondNumber, operator))
 
   return [expression, correctAnswer, rules]
 }
