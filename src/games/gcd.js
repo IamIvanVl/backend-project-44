@@ -1,6 +1,6 @@
 import getRandomInRange from '../randomizer.js'
 
-const getGCD = (a, b) => b === 0 ? String(a) : getGCD(b, a % b)
+const getGcd = (a, b) => b === 0 ? a : getGcd(b, a % b)
 
 const game = () => {
   const firstNumber = getRandomInRange(1, 100)
@@ -8,7 +8,7 @@ const game = () => {
   const rules = 'Find the greatest common divisor of given numbers.'
   const question = `${firstNumber} ${secondNumber}`
 
-  const greatestDivisor = getGCD(firstNumber, secondNumber)
+  const greatestDivisor = String(getGcd(firstNumber, secondNumber))
 
   return [question, greatestDivisor, rules]
 }
