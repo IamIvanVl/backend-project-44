@@ -1,5 +1,7 @@
 import getRandomInRange from '../randomizer.js'
 
+const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 const isPrime = (number) => {
   if (number <= 1) {
     return false
@@ -14,7 +16,6 @@ const isPrime = (number) => {
 
 const game = () => {
   const question = getRandomInRange(1, 100)
-  const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
   const correctAnswer = isPrime(question) ? 'yes' : 'no'
 

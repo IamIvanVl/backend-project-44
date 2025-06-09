@@ -1,5 +1,7 @@
 import getRandomInRange from '../randomizer.js'
 
+const rules = 'What number is missing in the progression?'
+
 const createSequence = (start, step, length) => {
   const sequence = []
   for (let i = 0; i < length; i += 1) {
@@ -16,7 +18,6 @@ const game = () => {
   const sequence = createSequence(start, step, length)
   const blankIndex = getRandomInRange(0, sequence.length - 1)
   const correctAnswer = String(sequence[blankIndex])
-  const rules = 'What number is missing in the progression?'
 
   sequence[blankIndex] = '..'
 
